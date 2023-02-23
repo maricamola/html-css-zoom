@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  height: calc(100vh - 80px);
+}
+
+.menu-top{
+  height: 80px;
+  background-color: black;
+}
+
+.menu-bottom{
+  height: 80px;
+  background-color: #222222;
+}
+
+
+
