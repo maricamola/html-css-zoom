@@ -34,6 +34,21 @@ body{
   color: white;
 }
 
+header{
+  text-align: right;
+}
+
+header button{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  background-color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin-top: 10px;
+}
+
 .bottom a{
   text-decoration: none;
   list-style: none;
@@ -72,7 +87,7 @@ body{
 
 main{
   height: calc(100vh - 160px);
-  overflow: auto;
+  overflow-y: auto;
 }
 
 main .box{
@@ -101,7 +116,7 @@ main .name{
   color: white;
 }
 
-/*MENU-BOTTOM*/
+/*MENU-BOTTOM CENTER*/
 
 .menu-bottom a{
   text-decoration: none;
@@ -130,12 +145,11 @@ main .name{
   margin: 10px 10px;
 }
 
-.menu-bottom .end a{
-  font-size: 12px;
-  color: red;
-  background-color: grey;
-  padding:30px 20px;
+.menu-bottom .active a{
+  color: green;
 }
+
+/*MENU LEFT*/
 
 .menu-left{
   display: flex;
@@ -143,8 +157,26 @@ main .name{
   text-align: center;
 }
 
+.menu-left .arrow{
+  display: flex;
+  align-items: center;
+}
+
 .menu-left a{
   margin: 10px 10px;
+}
+
+/*MENU RIGHT*/
+
+.menu-right{
+  height: 100%;
+}
+
+.menu-right button{
+  color: red;
+  height: 100%;
+  border: 0;
+  background-color: gray;
 }
 
 

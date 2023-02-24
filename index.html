@@ -12,12 +12,19 @@
 
   <div class="container">
 
-  <div class="menu-top">
-    <span class="bottom view"><a href="#">
-      <i class="fa-solid fa-table-cells"></i>
-      Speaker View</a></span>
-    <span class="bottom zoom"><a href="#"><i class="fa-solid fa-maximize"></i></a></span>
-  </div>
+    <!--START HEADER-->
+  <header>
+    <div class="menu-top">
+
+      <button><i class="fa-solid fa-table-cells"></i>
+        Speaker View</button>
+
+      <button><i class="fa-solid fa-maximize"></i></button>
+  
+    </div>
+  </header>
+
+    <!--START MAIN-->
   <main>
     <div class="box">
       <section class="web1">
@@ -171,20 +178,31 @@
     </div>
   </main>
 
+    <!--START FOOTER-->
+  <footer>
   <div class="menu-bottom">
+
+    <!--MENU LEFT-->
 
     <div class="menu-left">
       <span class="mute"><a href="#">
       <i class="fa-solid fa-microphone"></i></a>
       <div class="subject">Mute</div></span>
-      <span class="arrow"><a href="#">^</a></span>
-
+      
+        <div class="arrow">
+        <i class="fa-sharp fa-solid fa-angle-up"></i>
+        </div>
+      
       <span class="stopvideo"><a href="#">
       <i class="fa-solid fa-video"></i></a>
-      <div class="subject">Stop video</div></span></span>
-      <span class="arrow"><a href="#">^</a></span>
+      <div class="subject">Stop video</div></span>
+      <div class="arrow">
+        <i class="fa-sharp fa-solid fa-angle-up"></i>
+        </div>
 
     </div>
+
+      <!--MENU CENTER-->
 
     <nav>
       <ul>
@@ -194,12 +212,11 @@
 
         <li><a href="#"><i class="fa-solid fa-chart-column"></i></a><div class="subject">Polling</div></li>
 
-        <li><a href="#"><i class="fa-solid fa-share-from-square"></i></a><div class="subject">ShareScreen</div></li>
+        <li><span class="active"><a href="#"><i class="fa-solid fa-share-from-square"></i></a></span><div class="subject">ShareScreen</div></li>
 
-
-        <span class="arrow"><a href="#">^</a></span>
-
-
+        <li><div class="arrow">
+        <i class="fa-sharp fa-solid fa-angle-up"></i>
+        </div></li>
 
         <li><a href="#"><i class="fa-solid fa-comment"></i></a><div class="subject">Chat</div></li>
 
@@ -211,9 +228,12 @@
     </ul>
     </nav>
 
-    <span class="end"><a href="#">End meeting</a></span>
-
+    <!--MENU RIGHT-->
+    <div class="menu-right">
+      <button>End meeting</button>
+    </div>
   </div>
+  </footer>
 </div>
 
 </body>
